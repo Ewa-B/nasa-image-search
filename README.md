@@ -1,5 +1,7 @@
 # NASA Image Search
 
+ https://ewa-b.github.io/nasa-image-search/
+
 This is a simple, static web project that allows users to search for NASA images using the NASA Image and Video Library API. It’s built with HTML, CSS, and vanilla JavaScript, and it dynamically displays image results based on user queries.
 
 ## Features
