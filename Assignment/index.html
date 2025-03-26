@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" type="image/ico" href="images/nasa.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+
+    <script src="index.js"></script>
+    <title>NASA Image Library</title>
+  </head>
+  <body>
+    <div class="background">
+
+      <div class="scrollable">
+        <div class="search-container">
+          <div class="search-text">
+            <h2>Search for images</h2>
+            <form class="box">
+              <label for="searchInput" id="searchLabel">Search box</label>
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <input
+                type="text"
+                id="searchInput"
+                name="search"
+                placeholder="Search..."
+              />
+              <input type="submit" value="Search" id="submitInput" />
+              <i class="fa fa-rocket" aria-hidden="true"></i>
+            </form>
+          </div>
+        </div>
+      <div class="rocket-container">
+        <img class="rocket" src="images/rocket.png" alt="Rocket" />
+      </div>
+        <div class="loading">
+          <img src="images/spinner.gif" alt="loading" />
+        </div>
+        <div class="error">
+          <h1>No results found!</h1>
+        </div>
+        <div class="noInput">
+          <h1>Oops - No input!</h1>
+        </div>
+
+        <main class="target"></main>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>References:</p>
+      <ul>
+        <li>
+          <a href="https://pixabay.com" target="_blank"
+            >Copyright-free images</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API"
+            target="_blank"
+            >History API</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/URLSearchParams"
+            target="_blank"
+            >URLSearchParams</a
+          >
+        </li>
+        <li><a href="https://loading.io/" target="_blank">Spinner icon</a></li>
+        <li>
+          <a href="https://icons8.com/icons/set/rocket" target="_blank"
+            >Rocket icon</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
